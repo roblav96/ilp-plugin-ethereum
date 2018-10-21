@@ -1,43 +1,47 @@
 {
-  "name": "ilp-plugin-ethereum",
-  "version": "3.0.0-beta.4",
-  "description": "Settle Interledger payments with ether and ERC-20 tokens",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "publishConfig": {
-    "tag": "next"
+  "_from": "ilp-plugin-ethereum@next",
+  "_id": "ilp-plugin-ethereum@3.0.0-beta.4",
+  "_inBundle": false,
+  "_integrity": "sha512-RH63OZjPmGfg1bBu5q5+ocsel1h0F+Bq6yssZdWt7qUKOoZZa2HfTioEb+rKq8aFAVvBRvuY4VRL7hggdrv6vw==",
+  "_location": "/ilp-plugin-ethereum",
+  "_phantomChildren": {
+    "bignumber.js": "7.2.1",
+    "extensible-error": "1.0.2",
+    "long": "4.0.0",
+    "ms": "2.1.1"
   },
-  "files": [
-    "build/**/*"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "lint": "tslint --project .",
-    "test": "nyc ava",
-    "test-inspect": "node --inspect node_modules/ava/profile.js"
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ilp-plugin-ethereum@next",
+    "name": "ilp-plugin-ethereum",
+    "escapedName": "ilp-plugin-ethereum",
+    "rawSpec": "next",
+    "saveSpec": null,
+    "fetchSpec": "next"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/interledgerjs/ilp-plugin-ethereum.git"
-  },
-  "keywords": [
-    "ilp",
-    "interledger",
-    "ledger",
-    "plugin",
-    "ethereum",
-    "machinomy",
-    "erc20"
+  "_requiredBy": [
+    "/"
   ],
-  "contributors": [
-    "Kincaid O'Neil <kincaid@kava.io> (https://kincaidoneil.com/)",
-    "Kevin Davis <kevin@kava.io>"
-  ],
-  "license": "Apache-2.0",
+  "_resolved": "https://registry.npmjs.org/ilp-plugin-ethereum/-/ilp-plugin-ethereum-3.0.0-beta.4.tgz",
+  "_shasum": "857b19a14be66f5323da3feb44383266755a36a4",
+  "_spec": "ilp-plugin-ethereum@next",
+  "_where": "/Users/roblav96/Downloads/electron-builder",
   "bugs": {
     "url": "https://github.com/interledgerjs/ilp-plugin-ethereum/issues"
   },
-  "homepage": "https://github.com/interledgerjs/ilp-plugin-ethereum#readme",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kincaid O'Neil",
+      "email": "kincaid@kava.io",
+      "url": "https://kincaidoneil.com/"
+    },
+    {
+      "name": "Kevin Davis",
+      "email": "kevin@kava.io"
+    }
+  ],
   "dependencies": {
     "@types/ethereumjs-util": "^5.2.0",
     "@types/web3": "^1.0.5",
@@ -53,6 +57,8 @@
     "ilp-plugin-mini-accounts": "^3.5.2",
     "web3": "1.0.0-beta.36"
   },
+  "deprecated": false,
+  "description": "Settle Interledger payments with ether and ERC-20 tokens",
   "devDependencies": {
     "@types/get-port": "^4.0.0",
     "ava": "^1.0.0-rc.1",
@@ -65,5 +71,36 @@
     "tslint": "^5.11.0",
     "tslint-config-standard": "^7.1.0",
     "typescript": "^3.1.1"
-  }
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "homepage": "https://github.com/interledgerjs/ilp-plugin-ethereum#readme",
+  "keywords": [
+    "ilp",
+    "interledger",
+    "ledger",
+    "plugin",
+    "ethereum",
+    "machinomy",
+    "erc20"
+  ],
+  "license": "Apache-2.0",
+  "main": "build/index.js",
+  "name": "ilp-plugin-ethereum",
+  "publishConfig": {
+    "tag": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interledgerjs/ilp-plugin-ethereum.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project .",
+    "test": "nyc ava",
+    "test-inspect": "node --inspect node_modules/ava/profile.js"
+  },
+  "types": "build/index.d.ts",
+  "version": "3.0.0-beta.4"
 }
